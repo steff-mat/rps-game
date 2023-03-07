@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  border-radius: 5px;
+}
+
+.game-zone {
+  width: 50vh;
+  height: 50vh;
+  background-color: rgb(150, 150, 150);
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.game-zone-split {
+  width: 95%;
+  height: 95%;
+  background-color: antiquewhite;
+}
+
+.score-side,
+.player-side {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.score-side {
+  background-color: aqua;
+}
+.player-side {
+  background-color: blueviolet;
+}
+
+.player-button {
+  width: 25%;
+  height: 25%;
+}
+
+.score-side {
+  display: flex;
+  flex-direction: column;
+}
+
+.computer-selection {
+  width: 100%;
+  height: 20%;
+  background-color: green;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.score-zone {
+  width: 100%;
+  height: 80%;
+  background-color: yellow;
+  display: flex;
+  flex-direction: column;
+}
+
+.win-zone-text {
+  width: 100%;
+  height: 20%;
+  background-color: orangered;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.score-text {
+  width: 100%;
+  height: 80%;
+  backdrop-filter: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.player-score,
+.computer-score {
+  width: 50%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.player-score {
+  background-color: rgb(154, 112, 112);
+}
+
+.computer-score {
+  background-color: purple;
+}
